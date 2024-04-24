@@ -15,7 +15,7 @@ function getNewHit() {
 function makeBubble() {
     let clutter = "";
 
-    for (let i = 1; i <= 112; i++) {
+    for (let i = 1; i <= 117; i++) {
 
         let randomNo = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble"> ${randomNo} </div>`;
