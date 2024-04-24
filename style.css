@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Gilroy-Medium";
+}
+
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #9BC6A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel {
+    height: 85%;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop {
+    height: 100px;
+    width: 100%;
+    background-color: #036852;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 22%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 10%;
+}
+
+#ptop h2 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #036852;
+    font-weight: 600;
+    padding: 0.9vw;
+    font-size: 1.5vw;
+}
+
+#pbtm {
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bubble {
+    height: 4.5vw;
+    width: 4.5vw;
+    background-color: #036852;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+
+#pbtm :hover {
+    cursor: pointer;
+    background-color: #03493c;
+}
+
+#pbtm h1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+button{
+    height: 3vw;
+    width: 5.5vw;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    border: 0px;
+    color: #036852;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
